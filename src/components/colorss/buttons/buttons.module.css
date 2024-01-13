@@ -1,0 +1,50 @@
+.logo {
+  color: var(--83869A, #83869a);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Heading L */
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 41px;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 63px;
+  padding: 65px 91px 65px 92px;
+  border-radius: 10px;
+  background: rgba(131, 134, 154, 0.05);
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  border-radius: 28px;
+  padding: 14px 32px;
+  color: var(--FFFFFF, #fff);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 16px;
+}
+.text {
+  color: #83869a;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.card1{
+    text-align: center;
+}
